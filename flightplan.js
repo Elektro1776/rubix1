@@ -1,7 +1,7 @@
 var plan = require('flightplan');
 
 var appName = 'AdminPanel';
-var username = 'root';
+var username = 'deploy';
 var startFile = '"/var/www/clients/client1/web35/web/server.js"';
 
 var tmpDir = appName+'-' + new Date().getTime();

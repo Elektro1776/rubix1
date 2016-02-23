@@ -1,13 +1,8 @@
 {
-  "name": "skyfit",
-  "version": "1.0",
-  "private": true,
-  "author": "GroupxInc",
-  "copyright": "GroupxInc, email @ groupxinc.com",
-  "scripts": {
-    "test": "mocha --compilers :./test/babel-setup.js --recursive --watch",
-    "start": "NODE_ENV=production PORT=8080 APP=demo node server.js"
-  },
+  "name": "rubix1",
+  "version": "1.0.0",
+  "description": "load of files before server test",
+  "main": "flightplan.js",
   "dependencies": {
     "babel": "^5.6.4",
     "babel-core": "^5.5.8",
@@ -22,7 +17,7 @@
     "express": "^4.12.4",
     "express-beautify": "^0.1.2",
     "flummox": "^3.5.2",
-    "gulp": "^3.9.1",
+    "gulp": "^3.9.0",
     "gulp-autoprefixer": "^2.3.1",
     "gulp-bless": "^3.0.1",
     "gulp-concat": "^2.6.0",
@@ -46,17 +41,28 @@
     "react-hot-loader": "^1.2.7",
     "react-router": "1.0.0-beta3",
     "react-style": "^0.5.5",
-    "run-sequence": "^1.1.0",
+    "run-sequence": "^1.1.5",
     "uuid": "^2.0.1",
     "vinyl-transform": "^1.0.0",
     "watch": "^0.16.0",
     "webpack": "^1.9.11",
     "webpack-dev-server": "^1.9.0",
     "webpack-stream": "^2.0.0",
-    "yargs": "^3.32.0"
+    "yargs": "^3.10.0"
   },
-  "devDependencies": {
-    "fly": "^0.9.1",
-    "gulp-css-flipper": "^1.0.2"
-  }
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elektro1776/rubix1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elektro1776/rubix1/issues"
+  },
+  "homepage": "https://github.com/Elektro1776/rubix1#readme"
 }
