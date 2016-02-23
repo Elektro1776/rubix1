@@ -33,11 +33,7 @@ var runSequence = require('run-sequence');
 var package = require('./package.json');
 
 var defaultAppName = argv.name ? argv.name : 'app';
-<<<<<<< HEAD
 var createRTL = argv.rtl ? true:false;
-=======
-var createRTL = argv.rtl ? true : false;
->>>>>>> 499cc5aeac43b594ac0a3d4dbc5cc64f3abd5a0a
 var production = argv.production ? true : false;
 var port = argv.port ? argv.port : 8080;
 var wport = argv.wport ? argv.wport : 8079;

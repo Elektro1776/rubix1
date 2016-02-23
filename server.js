@@ -1,9 +1,5 @@
 require('./globals');
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 499cc5aeac43b594ac0a3d4dbc5cc64f3abd5a0a
 var fs = require('fs');
 var path = require('path');
 var express = require('express');
